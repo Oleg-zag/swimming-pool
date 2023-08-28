@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36458f9b-1a98-4f46-ac1a-a9085db924fe">
+  <name>SwimmingPool</name>
+  <synonym>
+    <key>ru</key>
+    <value>Swimming pool</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="d33e6e1d-2e66-430f-b9b8-020d8ea31cb2"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="1ed3b530-95d4-41dd-aa9d-7438b35bd21a"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="49a95bc5-320a-4f81-a5eb-ac516bf9fbf7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="3352c6ea-d164-42b9-978f-33fc37580d80"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c1c69d25-7d3f-4e1e-be94-d46ac179ac64"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a5274f29-be09-49b6-99d3-96333a657226"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="fc82bb2a-ccae-4b5b-84c8-00da213edb49"/>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Олег</vendor>
+  <version>1.0.0.2</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
+  <languages uuid="89f17754-75c7-493f-a8cb-b3b1a23ffee5">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Кассир</roles>
+  <roles>Role.Оператор</roles>
+  <commonModules>CommonModule.НомераТелефоновКлиентСервер</commonModules>
+  <constants>Constant.МаксимальнаяДоляОплатыБаллами</constants>
+  <catalogs>Catalog.Бассейны</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.ВидыБассейнов</catalogs>
+  <documents>Document.ПродажаБилетов</documents>
+  <documents>Document.ПосещениеБассейна</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <documents>Document.ШкалаБонуснойПрограммы</documents>
+  <enums>Enum.ВидНоменклатуры</enums>
+  <reports>Report.ПродажиПоБассейнам</reports>
+  <reports>Report.СтатистикаПосещений</reports>
+  <dataProcessors>DataProcessor.ПереходНаНовуюВерсию</dataProcessors>
+  <dataProcessors>DataProcessor.РабочееМестоКассира</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.АктуальнаяШкалаБонуснойПрограммы</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.БонусныеБаллыКлиентов</accumulationRegisters>
+</mdclass:Configuration>

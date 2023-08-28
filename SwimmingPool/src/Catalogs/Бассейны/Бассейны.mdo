@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0ff430bd-6f03-47b8-b48a-c96276991f64">
+  <producedTypes>
+    <objectType typeId="8f118af4-131b-411e-903e-080eaa327460" valueTypeId="f6191d61-4617-4d18-b042-7c8c389cf890"/>
+    <refType typeId="91f245b1-57db-451c-bb83-6d68dad047c4" valueTypeId="b8498760-c0e0-4c07-96fb-9d4c922a0870"/>
+    <selectionType typeId="861555ea-f134-4f00-92d8-ba9e6d6e1e87" valueTypeId="87b86520-fb42-44b9-8b3a-7d5d9abc97a0"/>
+    <listType typeId="40f565ad-9233-4949-85d4-be8045f9e8f4" valueTypeId="6113dc2f-31a4-463f-9164-96f6da7785bd"/>
+    <managerType typeId="4b9334f2-6762-4c96-b704-d2bab7301470" valueTypeId="a95aa68e-816a-482d-8f2e-39eadebc044e"/>
+  </producedTypes>
+  <name>Бассейны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бассейны</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Бассейны.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Бассейны.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Бассейн</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="014a46bc-f94c-47a2-afe6-9265cce8dad6">
+  <producedTypes>
+    <selectionType typeId="4b1d19ca-0fc6-473f-a3ef-c80c99070869" valueTypeId="7e82f494-2c26-470c-ad1d-a4398e6e8980"/>
+    <listType typeId="7bfd3339-dc38-471a-a66a-87d3e27ca22a" valueTypeId="5f89f02c-1289-40ab-9740-6b1d00719964"/>
+    <managerType typeId="4e57b184-39ed-4d52-879b-962669e5eaec" valueTypeId="eedbc435-f40a-4aed-8817-a9794c24c263"/>
+    <recordSetType typeId="381d730a-5501-4011-bdfd-261727345e7e" valueTypeId="7296f70f-b4f2-4f8b-bba7-060f425769b7"/>
+    <recordKeyType typeId="2594b69e-50cb-4807-bc3d-1cd089d51f10" valueTypeId="42ca327e-1606-49ed-a3af-c96a2307780e"/>
+    <recordType typeId="41ff1113-ad1b-490b-840a-a23a5cbabf06" valueTypeId="4b4fba7f-65bf-4d86-b4e5-5384907cffa1"/>
+  </producedTypes>
+  <name>Продажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="7df8e7d3-aaa0-4366-a40f-1fda693d1748">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="7eace7db-2f01-420b-b3b6-99ee270df1d8">
+    <name>ВидыБассейна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды бассейна</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыБассейнов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="27e1efc4-9272-4558-86df-7bdbab292c1f">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Клиенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2d5c2fca-f33e-402e-8a8f-c6bf78c9e135">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

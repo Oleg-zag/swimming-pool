@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b8fa8bd-aeae-4416-a551-29d858132e82">
+  <producedTypes>
+    <objectType typeId="fbd0d003-0fac-430b-9bdf-205ad7706aeb" valueTypeId="1a6d70b5-569b-4fd4-81dc-048633a0de0a"/>
+    <refType typeId="95b637c1-570d-4646-b72d-ea5874105977" valueTypeId="3077c2f9-3dc9-42bf-a739-d430924010ee"/>
+    <selectionType typeId="5a38663d-d7e8-48bf-afd9-5e36fbd5e190" valueTypeId="7206fc53-507f-4755-b6c9-2dc4d390d083"/>
+    <listType typeId="bd7e49f4-3519-4e09-b9d7-f8552ab2ac84" valueTypeId="6f512ac0-a516-4531-a95b-fc82d2a4dbc5"/>
+    <managerType typeId="00d165f8-0901-47b3-984f-46ac5d1b986a" valueTypeId="454fcb0d-2c3f-4d59-9d81-bf8a275c3cf4"/>
+  </producedTypes>
+  <name>ВидыБассейнов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды бассейнов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыБассейнов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыБассейнов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="224b6b68-aecd-4125-a81e-9ca69aecd746">
+    <name>ВидБассейна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид бассейна</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыБассейнов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fc7a4cf-5dba-4eae-aaf3-8e33fafb8c69">
+  <producedTypes>
+    <objectType typeId="b087234f-6056-4c53-8484-f967622c7082" valueTypeId="b6ff2f8e-21aa-44c4-a2f6-70b43a00de73"/>
+    <refType typeId="709a954c-954f-4415-a0fe-6d1baa93fd21" valueTypeId="d6f449e0-27c8-452e-9c14-3d22926cc50f"/>
+    <selectionType typeId="75f2079d-dca8-4dc1-998f-35b27b0da0a8" valueTypeId="3f0b1524-11d3-4c30-ba6c-4e1375c4b316"/>
+    <listType typeId="0621f6e8-8309-4630-bafb-ef6a7fa93577" valueTypeId="75a4f3ad-41e3-4d15-9fa4-9c3a87615a5e"/>
+    <managerType typeId="897d6fc1-e5b1-4796-8e4f-6e94493c992b" valueTypeId="2234e6a6-0dfd-4379-84d9-cfefe92d4121"/>
+  </producedTypes>
+  <name>ШкалаБонуснойПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шкала бонусной программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ШкалаБонуснойПрограммы.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.АктуальнаяШкалаБонуснойПрограммы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="bd4ee725-1868-466e-a54a-4269d02a627c">
+    <producedTypes>
+      <objectType typeId="e835a1b6-a715-479c-b032-beb6ea4ffb04" valueTypeId="c7fdf7c4-9693-49f8-94a3-c957b6fcb35b"/>
+      <rowType typeId="f2d612d8-a5d2-4514-b824-ccac1bd81ac5" valueTypeId="9ae5bb47-f151-45d6-b8b5-14f8c9ef584f"/>
+    </producedTypes>
+    <name>Диапазоны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазоны</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="65e212f0-7602-41a7-b02a-ae492d2a950a">
+      <name>НижняяГраница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Нижняя граница</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="69ee91a8-870f-4267-aa9a-df3828f2bdfc">
+      <name>ВерхняяГраница</name>
+      <synonym>
+        <key>ru</key>
+        <value>Верхняя граница</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="24a516b6-8d83-4585-98d2-4b46986826cf">
+      <name>ПроцентНакопления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент накопления</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
